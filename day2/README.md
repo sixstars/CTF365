@@ -3,7 +3,7 @@
 FTP - authentication
 ## Category
 Network - Packet capture analysis
-## Hint
+## Description
 ch1.pcap is an authenticated file exchange achieved through FTP. Recover the password used by the user.
 ## Credit
 http://www.root-me.org
