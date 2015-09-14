@@ -16,7 +16,7 @@ The password is the same as username.
 
 You should run the program `/narnia/narnia0` and try to get the shell of user `narnia1`.
 The flag is in `/etc/narnia_pass/narnia1`.
-[This file](./narnia) is just a copy of `/narnia/narnia0` on remote server.
+[This file](./narnia0) is just a copy of `/narnia/narnia0` on remote server.
 You may run it on your own Linux machine.
 
 In order make it easier for you to spot the vuln and abuse it, we give you the [source code](./narnia0.c).
