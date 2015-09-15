@@ -19,7 +19,9 @@ FBAJGF, FWMMVWCHGH XO NSG WFWAI "TIAD" NAD ACH JWMIO XMAJGF. GCUVO.
 ```
 
 ## Hint
-Try some automatic tools, and you can solve it in less than 10 seconds.
+If you do not have any idea, you can see this [HINT1](./HINT1.md).
+
+And do not easily open [HINT2](./HINT2.md), as you will get the result immediately after you see it.
 
 ## Credit
 tinyCTF 2014: Safer than rot13
