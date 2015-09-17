@@ -8,6 +8,13 @@ Once you break into some environments, please do not try to do damage. On the ot
 
 We now supply a [platform](http://10.131.1.19/ctfcircle) __IN FUDAN INTERNAL NETWORK__ for you to submit the flag you find. Notice that the invite code at registry is not neccessary.
 
+## Flag
+In order to get away from unnecessary trouble, we decide to unify the format of flags.
+
+Most flags submitted should be wrapped with `*ctf{}`.
+If a flag is not surrounded by curly braces, please wrap it with `*ctf{}` when submit.
+If a flag is surrounded by an unusual tag and curly braces, keep it intact.
+
 ## Useful Tools
 Due to the Chinese GFW, it can be slow to download some tools. So we downloaded them and stored them on our server. You can find those tools on http://fdureal.nxtinc.cf/public/. __THIS SITE IS ONLY ACCESSIBLE FROM FUDAN INTERNAL NETWORK__.
 
