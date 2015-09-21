@@ -16,6 +16,6 @@ If a flag is not surrounded by curly braces, please wrap it with `*ctf{}` when s
 If a flag is surrounded by an unusual tag and curly braces, keep it intact.
 
 ## Useful Tools
-Due to the Chinese GFW, it can be slow to download some tools. So we downloaded them and stored them on our server. You can find those tools on [](http://fdu.6stars.cf/res/). __THIS SITE IS ONLY ACCESSIBLE FROM FUDAN INTERNAL NETWORK__.
+Due to the Chinese GFW, it can be slow to download some tools. So we downloaded them and stored them on our server. You can find those tools on http://fdu.6stars.cf/res/ . __THIS SITE IS ONLY ACCESSIBLE FROM FUDAN INTERNAL NETWORK__.
 
 If you need any tool which is outside the wall and you cannot get it, leave an issue.
