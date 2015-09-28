@@ -7,7 +7,7 @@ Backup file
 Web
 
 ## Description
-Find the password at ``http://challenge01.root-me.org/web-serveur/ch11/''.
+Find the password at `http://challenge01.root-me.org/web-serveur/ch11/`.
 The flag is the password, which is in the backup file of the page!
 
 ## Hint
