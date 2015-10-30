@@ -1,9 +1,9 @@
-# Day7 Solution
+# Day7
+## Solution
+Use WinHex or 010 Editor (on Windows), xxd or 010 Editor on OS X or Unix, to inspect the hex dump of the jpeg file.
 
-Use winhex or 010editor(on windows), xxd or 010editor on unix, to inspect hex dump of this jpeg file.
+You can see a string of zeros and ones at the end of this file. You should know that it's OK to attach any information to the end of a jpg/png file without causing any side effect when showing the image.
 
-You can see a 01 string at the end of this file. As we know it's free to attach any information to the end of a jpg/png file without causing side effect when show image.
+However, an extra step is necessary to turn the string into a flag.
 
-There is an extra step to turn it into a flag.
-
-We know an ascii char consist of 7 bits with a suffix 0. So we can divide these 0/1 into several groups, with each group containing 7 or 8 bits. Then restore char from these grouped bits, you can get a readable string, it's flag we want.
+We know an ASCII character consists of 7 bits, and (perhaps) an extra leading 0. So we can divide these zeros and ones into several groups, with each group containing 7 or 8 bits. Then, restore characters from these grouped bits, and you can get a readable string. It's the flag we want.
