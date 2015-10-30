@@ -1,8 +1,8 @@
 # Day10
 ## Solution
-In fact, this challenge is not complex. Thought the program includes a real complex function.
+In fact, this challenge is not complex, although the program includes a really complex function.
 
-We use this challenge only want to tell you that once you find the right way, some problems may become really easy. So do not feel afraid.
+We use this challenge to tell you that once you find the right way, some problems may become really easy. So do not feel afraid.
 
 If we pass the complex function (which we call it `unknown_function`), we'll see that the logic of this program is:
 
