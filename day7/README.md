@@ -1,12 +1,11 @@
-Day 7
-======
+# Day 7
 
-# Challenge
+## Challenge
 
 Words in the Picture
 
-# Category
+## Category
 Steganography
 
-# Description
+## Description
 A word hidden in the picture, can you find it?
