@@ -27,9 +27,9 @@ In order to make it easier for you to locate the vulnerability/bug and abuse/exp
 > You can try it first on your own machine.
 >
 > This is the [source code](./simplified.c).
-> Because our server is not ready yet, we have compiled it for you.
+> Because our server is not ready yet, you will not have a chance to exploit the remote host. We have compiled the simplified program for you.
 > You need to run it on your own machine.
-> Here is the [executable](./simplified). Try to get a shell. Note that you can only get the flag if you finish the narnia0 challenge. If you feel the narnia0 challenge is too complicated, you can just finish the simplified challenge on your own machine and goto the next challenge.
+> Here is the [executable](./simplified). Try to get a shell on your own machine and you finish the game. Note that you can only get the flag if you finish the narnia0 challenge. If you feel the narnia0 challenge is too complicated, you can just finish the simplified challenge on your own machine and goto the next challenge.
 
 ## Hint
 No idea?
