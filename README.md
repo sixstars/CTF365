@@ -8,6 +8,8 @@ Once you break into an environment, please do not try to do any damage. On the o
 
 We now supply a [platform](http://ctf.fudan.edu.cn/ctfcircle) for you to verify the flag you find. Notice that the invitation code on registration is not neccessary.
 
+We give descriptions and solutions for each game. Feel free to view the solution if you have no idea how to get the flag. We actually suggest the beginners follow the solution to get the flag, but not stare at the screen and do nothing for hours.
+
 ## Flag Format
 Most flags submitted should be wrapped with `*ctf{}`.
 If a flag is not surrounded by curly braces, please wrap it with `*ctf{}` at submission.
