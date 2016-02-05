@@ -17,5 +17,7 @@ The usual way is to use Python to generate special characters. Don't forget the 
 
 But you will find that you don't get a shell from the program. Why? Because `bash` (your default shell) adds an `EOF` at the end of the string which python outputs. Although the program executes the `/bin/sh`, getting an `EOF` will end the shell. So, if you want to execute something in `/bin/sh`, you can run `(python -c 'print "A"*20 + "\xef\xbe\xad\xde"'; echo "id") | /narnia/narnia0`. Don't know what `|` does? Just Google `Unix pipe`. Don't use `(python -c 'print "A"*20 + "\xef\xbe\xad\xdeid"')` because the `scanf()` just reads 24 bytes from the input. The string `id` for `/bin/sh` should come after the input for `scanf()`. The `/bin/sh` will get the `id` and run it. You can read the flag in the same way, using `cat`.
 Now, you may want to get an interactive shell. It's very clever to run `(python -c 'print "A"*20 + "\xef\xbe\xad\xde"'; cat) | /narnia/narnia0`. The `cat` will try to read strings from `STDIN`, and send it through the pipe to `/bin/sh`, which is executed after you overflow `narnia0`.
+
+Confused with crappy things like `EOF`? [This blog article](http://pwnz.logdown.com/posts/2014/08/31/narnia0overthewire) will help you.
 ## Exploit Example
 [Here](https://github.com/JayvicWen/CTF/tree/master/Wargames/OverTheWire/Narnia/level0) is an exploitation script which is fully automated, from ssh connection to flag capturing. You just need to run the `solve.py` with proper dependency (pwntools) installed.
