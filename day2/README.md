@@ -5,6 +5,7 @@ FTP - authentication
 Network - Packet capture analysis
 ## Description
 [ch1.pcap](./ch1.pcap) is an authenticated file exchange achieved through FTP. Recover the password used by the user.
+if wireshark can not open ch1.pcap successfully, please use ch1(new).pcap
 ## Credit
 http://www.root-me.org
 ## Hint
